@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC Wildfire Hotspot Analysis - King Eluard Camota</title>
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../artifact-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="../../index.html">King Eluard Camota</a>
+                </div>
+                <div class="breadcrumb">
+                    <a href="../../index.html">Portfolio</a>
+                    <span class="breadcrumb-separator">></span>
+                    <a href="../../index.html#projects">Projects</a>
+                    <span class="breadcrumb-separator">></span>
+                    <span class="breadcrumb-current">BC Wildfire Hotspot Analysis</span>
+                </div>
+                <a href="../../index.html#projects" class="back-button">
+                    <i class="fas fa-arrow-left"></i>
+                    Back to Portfolio
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="artifact-main">
+        <!-- Project Hero Section -->
+        <section class="artifact-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="project-collage-hero">
+                        <div class="collage-main">
+                            <img src="wildfire-hero.webp" alt="BC Wildfire Analysis - Main Landscape" />
+                        </div>
+                        <div class="collage-secondary">
+                            <img src="wildfire-hero2.webp" alt="BC Wildfire Analysis - Environmental Data" />
+                        </div>
+                        <div class="collage-accent">
+                            <div class="accent-content">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Data Analytics</span>
+                            </div>
+                        </div>
+                        <div class="project-icon-overlay">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                    <h1>BC Wildfire Hotspot Analysis</h1>
+                    <p class="project-subtitle">Multi-Year Analysis of Wildfire Activity and Environmental Factors in British Columbia Using R Analytics</p>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Project Timeline: 2024</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Academic Project - Langara College</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-code"></i>
+                            <span>Tools: R, RStudio, Exploratory Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-bullseye"></i>
+                    Project Overview
+                </h2>
+                <div class="content-grid">
+                    <div class="content-main">
+                        <p>This comprehensive wildfire analysis examines the relationship between wildfire activity and environmental factors across British Columbia over multiple years. Using advanced R programming techniques including chi-square testing, correlation analysis, and spatial data processing with the sf package, we identified regional fire risk patterns and applied statistical methods to understand wildfire behavior and environmental correlations through the tidyverse ecosystem.</p>
+                        
+                        <h3>Key Objectives</h3>
+                        <ul class="objective-list">
+                            <li><i class="fas fa-map-marked-alt"></i> Identify regional wildfire hotspots across British Columbia</li>
+                            <li><i class="fas fa-chart-area"></i> Analyze temporal patterns in wildfire activity over multiple years</li>
+                            <li><i class="fas fa-leaf"></i> Examine relationships between environmental factors and fire occurrence</li>
+                            <li><i class="fas fa-search"></i> Apply exploratory data analysis techniques for pattern recognition</li>
+                            <li><i class="fas fa-chart-line"></i> Create comprehensive visualizations for trend analysis</li>
+                            <li><i class="fas fa-shield-alt"></i> Develop insights for fire risk assessment and prevention</li>
+                        </ul>
+                    </div>
+                    <div class="content-sidebar">
+                        <div class="project-stats">
+                            <h3>Project Statistics</h3>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Years Analyzed</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Fire Incidents</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Environmental Variables</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Regional Areas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dataset Information -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-database"></i>
+                    Dataset Information
+                </h2>
+                <div class="dataset-info">
+                    <div class="dataset-card">
+                        <div class="dataset-header">
+                            <i class="fas fa-leaf"></i>
+                            <h3>BC Wildfire and Environmental Dataset</h3>
+                        </div>
+                        <div class="dataset-details">
+                            <div class="detail-row">
+                                <span class="label">Source:</span>
+                                <a href="https://cwfis.cfs.nrcan.gc.ca/downloads/hotspots/archive/" target="_blank" class="dataset-link">
+                                    Canadian Wildland Fire Information System - Hotspot Archive
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Time Period:</span>
+                                <span class="value">Multi-year wildfire records (2018-2023)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Geographic Coverage:</span>
+                                <span class="value">British Columbia, Canada</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Data Categories:</span>
+                                <span class="value">Wildfire Records, Weather Data, Topographical Information, Environmental Factors</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Key Variables:</span>
+                                <span class="value">Fire Location, Size, Cause, Temperature, Humidity, Wind Patterns, Elevation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-cogs"></i>
+                    Methodology & Process
+                </h2>
+                <div class="methodology-grid">
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-broom"></i>
+                        </div>
+                        <h3>Data Collection & Cleaning</h3>
+                        <ul>
+                            <li>Integration of multiple BC government datasets</li>
+                            <li>Geocoding and spatial data validation</li>
+                            <li>Temporal alignment of wildfire and weather records</li>
+                            <li>Quality assurance and outlier detection</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-map"></i>
+                        </div>
+                        <h3>Spatial Analysis</h3>
+                        <ul>
+                            <li>Geographic hotspot identification</li>
+                            <li>Regional clustering and pattern analysis</li>
+                            <li>Topographical correlation assessment</li>
+                            <li>Proximity analysis to infrastructure</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Temporal Trend Analysis</h3>
+                        <ul>
+                            <li>Seasonal pattern identification</li>
+                            <li>Year-over-year trend analysis</li>
+                            <li>Peak fire season determination</li>
+                            <li>Long-term climate correlation</li>
+                        </ul>
+                    </div>
+                    <div class="method-card">
+                        <div class="method-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Statistical Analysis & Testing</h3>
+                        <ul>
+                            <li>Chi-square tests for variable independence</li>
+                            <li>Correlation analysis between environmental factors</li>
+                            <li>Data.table optimization for large dataset processing</li>
+                            <li>Comprehensive visualization with ggplot2 and tidyverse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Findings -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-lightbulb"></i>
+                    Key Findings & Insights
+                </h2>
+                <div class="findings-container">
+                    <div class="finding-card highlight">
+                        <h3><i class="fas fa-map-marker-alt"></i> Regional Fire Hotspots</h3>
+                        <p>Identified distinct wildfire hotspots in the Interior regions of BC, particularly in the Cariboo and Kamloops areas, with significantly higher fire frequency and intensity compared to coastal regions.</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3><i class="fas fa-calendar-alt"></i> Seasonal Patterns</h3>
+                        <p>Strong seasonal correlations revealed peak fire activity during July-August, with early spring conditions serving as key predictive indicators for fire season severity.</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3><i class="fas fa-thermometer-half"></i> Environmental Correlations</h3>
+                        <p>Temperature and humidity levels showed strong negative correlation with fire risk, while wind patterns and drought indices emerged as significant predictive factors.</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3><i class="fas fa-mountain"></i> Topographical Influence</h3>
+                        <p>Elevation and slope analysis revealed increased fire susceptibility in mid-elevation forests (800-1500m), with aspect and vegetation type playing crucial roles.</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3><i class="fas fa-user"></i> Human vs Natural Causes</h3>
+                        <p>Lightning-caused fires showed different spatial and temporal patterns compared to human-caused fires, with natural fires more prevalent in remote areas during peak electrical storm seasons.</p>
+                    </div>
+                    <div class="finding-card">
+                        <h3><i class="fas fa-trend-up"></i> Climate Change Indicators</h3>
+                        <p>Analysis revealed increasing fire frequency and intensity trends over the study period, consistent with regional climate change projections and warming temperatures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Documentation -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-file-alt"></i>
+                    Project Documentation
+                </h2>
+                
+                <!-- Executive Summary PDF Embed -->
+                <div class="report-container">
+                    <div class="report-preview">
+                        <h3>Executive Summary</h3>
+                        <div class="pdf-embed">
+                            <iframe src="One-page-summary.pdf" width="100%" height="600px" type="application/pdf">
+                                <p>Your browser does not support PDFs. <a href="One-page-summary.pdf">Download the PDF</a>.</p>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="report-actions">
+                        <a href="One-page-summary.pdf" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-download"></i>
+                            Download Executive Summary
+                        </a>
+                        <a href="One-page-summary.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            View in New Tab
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Analysis Presentation PDF Embed -->
+                <div class="report-container" style="margin-top: 3rem;">
+                    <div class="report-preview">
+                        <h3>Analysis Presentation</h3>
+                        <div class="pdf-embed">
+                            <iframe src="Project 2_G 3.pdf" width="100%" height="600px" type="application/pdf">
+                                <p>Your browser does not support PDFs. <a href="Project 2_G 3.pdf">Download the PDF</a>.</p>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="report-actions">
+                        <a href="Project 2_G 3.pdf" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-download"></i>
+                            Download Presentation
+                        </a>
+                        <button class="btn btn-secondary" onclick="openPresentationViewer()">
+                            <i class="fas fa-eye"></i>
+                            Preview Slides
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Approach -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-code"></i>
+                    Technical Approach
+                </h2>
+                <div class="content-grid">
+                    <div class="content-main">
+                        <h3>R Programming Implementation</h3>
+                        <div class="tech-list">
+                            <div class="tech-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <div>
+                                    <h4>Data Visualization & Analysis</h4>
+                                    <p>ggplot2 for statistical graphics, dplyr for data manipulation, tidyr for data reshaping, and tidyverse ecosystem for comprehensive data analysis</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-map"></i>
+                                <div>
+                                    <h4>Spatial & Geographic Analysis</h4>
+                                    <p>sf package for spatial data manipulation, coordinate system transformations, and geographic hotspot identification</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-calculator"></i>
+                                <div>
+                                    <h4>Statistical Testing & Analysis</h4>
+                                    <p>Chi-square tests for independence, correlation analysis, and data.table for high-performance data processing</p>
+                                </div>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Temporal Data Processing</h4>
+                                    <p>lubridate for date-time manipulation, temporal pattern analysis, and multi-year trend identification</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sidebar">
+                        <div class="impact-stats">
+                            <h3>Project Impact</h3>
+                            <div class="impact-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <div>
+                                    <h4>Risk Assessment</h4>
+                                    <p>Enhanced understanding of regional fire risk patterns for prevention planning</p>
+                                </div>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div>
+                                    <h4>Predictive Insights</h4>
+                                    <p>Environmental correlation patterns for early warning systems</p>
+                                </div>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>Policy Support</h4>
+                                    <p>Data-driven insights for resource allocation and emergency preparedness</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- External Resources -->
+        <section class="artifact-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fas fa-external-link-alt"></i>
+                    External Resources & Links
+                </h2>
+                <div class="resources-grid">
+                    <a href="https://catalogue.data.gov.bc.ca/dataset/fire-perimeters-historical" class="resource-card" target="_blank">
+                        <div class="resource-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="resource-content">
+                            <h3>BC Open Data</h3>
+                            <p>Historical Fire Perimeters and Wildfire Data</p>
+                        </div>
+                        <div class="resource-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    <a href="https://github.com/KingEluard/DANA-4800-Project2" class="resource-card" target="_blank">
+                        <div class="resource-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="resource-content">
+                            <h3>GitHub Repository</h3>
+                            <p>R code and analysis scripts for BC Wildfire Analysis</p>
+                        </div>
+                        <div class="resource-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                    <a href="https://cwfis.cfs.nrcan.gc.ca/home" class="resource-card" target="_blank">
+                        <div class="resource-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="resource-content">
+                            <h3>Canadian Wildland Fire Information System</h3>
+                            <p>National fire weather and behavior data</p>
+                        </div>
+                        <div class="resource-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 King Eluard Camota. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="../../index.html" class="footer-link">Back to Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../script.js"></script>
+</body>
+</html>
